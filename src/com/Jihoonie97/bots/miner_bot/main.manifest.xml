@@ -1,0 +1,26 @@
+<manifest>
+    <main-class>com.Jihoonie97.bots.miner_bot.main</main-class>
+    <name>Miner bot</name>
+    <tag-line>Mining is this bot's speciality!</tag-line><!--Max of 50 chars-->
+    <description>Mines iron ore at mine near Port Sarim, then deposits into chest</description><!--Max of 110 chars-->
+    <version>1.0.0</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>MINING</category>
+        <category>MONEYMAKING</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>BasicMiner</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>true</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>private</access>
+    <tags>
+        <tag>mining</tag>
+        <tag>iron</tag>
+    </tags>
+    <resources>
+    </resources>
+</manifest>
